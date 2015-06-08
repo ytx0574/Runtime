@@ -7,13 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C405FE61B09E6EA00A7F311 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C405FE51B09E6EA00A7F311 /* main.m */; };
-		2C405FE91B09E6EA00A7F311 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C405FE81B09E6EA00A7F311 /* AppDelegate.m */; };
-		2C405FEC1B09E6EA00A7F311 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C405FEB1B09E6EA00A7F311 /* ViewController.m */; };
-		2C405FEF1B09E6EA00A7F311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C405FED1B09E6EA00A7F311 /* Main.storyboard */; };
-		2C405FF11B09E6EA00A7F311 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C405FF01B09E6EA00A7F311 /* Images.xcassets */; };
-		2C405FF41B09E6EA00A7F311 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C405FF21B09E6EA00A7F311 /* LaunchScreen.xib */; };
-		2C4060001B09E6EA00A7F311 /* RuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C405FFF1B09E6EA00A7F311 /* RuntimeTests.m */; };
+		2C2AF5E41B25384F0023CC8F /* Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2AF5E31B25384F0023CC8F /* Runtime.m */; };
+		2C2AF5E61B253AF20023CC8F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C2AF5E51B253AF20023CC8F /* Info.plist */; };
+		2C2AF5E81B253AF90023CC8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2AF5E71B253AF90023CC8F /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +23,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C405FE01B09E6EA00A7F311 /* Runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C405FE41B09E6EA00A7F311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C405FE51B09E6EA00A7F311 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2C405FE71B09E6EA00A7F311 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2C405FE81B09E6EA00A7F311 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2C405FEA1B09E6EA00A7F311 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C405FEB1B09E6EA00A7F311 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2C405FEE1B09E6EA00A7F311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2C405FF01B09E6EA00A7F311 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2C405FF31B09E6EA00A7F311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2C405FF91B09E6EA00A7F311 /* RuntimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C405FFE1B09E6EA00A7F311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C405FFF1B09E6EA00A7F311 /* RuntimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTests.m; sourceTree = "<group>"; };
+		2C2AF5E21B25384F0023CC8F /* Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runtime.h; sourceTree = "<group>"; };
+		2C2AF5E31B25384F0023CC8F /* Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runtime.m; sourceTree = "<group>"; };
+		2C2AF5E51B253AF20023CC8F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2AF5E71B253AF90023CC8F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C405FE01B09E6EA00A7F311 /* Runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Runtime.app; path = "/Users/johnson/iOSCode/Runtime/build/Debug-iphoneos/Runtime.app"; sourceTree = "<absolute>"; };
+		2C405FF91B09E6EA00A7F311 /* RuntimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RuntimeTests.xctest; path = "/Users/johnson/iOSCode/Runtime/build/Debug-iphoneos/RuntimeTests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,59 +53,18 @@
 			isa = PBXGroup;
 			children = (
 				2C405FE21B09E6EA00A7F311 /* Runtime */,
-				2C405FFC1B09E6EA00A7F311 /* RuntimeTests */,
-				2C405FE11B09E6EA00A7F311 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2C405FE11B09E6EA00A7F311 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2C405FE01B09E6EA00A7F311 /* Runtime.app */,
-				2C405FF91B09E6EA00A7F311 /* RuntimeTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2C405FE21B09E6EA00A7F311 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
-				2C405FE71B09E6EA00A7F311 /* AppDelegate.h */,
-				2C405FE81B09E6EA00A7F311 /* AppDelegate.m */,
-				2C405FEA1B09E6EA00A7F311 /* ViewController.h */,
-				2C405FEB1B09E6EA00A7F311 /* ViewController.m */,
-				2C405FED1B09E6EA00A7F311 /* Main.storyboard */,
-				2C405FF01B09E6EA00A7F311 /* Images.xcassets */,
-				2C405FF21B09E6EA00A7F311 /* LaunchScreen.xib */,
-				2C405FE31B09E6EA00A7F311 /* Supporting Files */,
+				2C2AF5E71B253AF90023CC8F /* main.m */,
+				2C2AF5E51B253AF20023CC8F /* Info.plist */,
+				2C2AF5E21B25384F0023CC8F /* Runtime.h */,
+				2C2AF5E31B25384F0023CC8F /* Runtime.m */,
 			);
 			path = Runtime;
-			sourceTree = "<group>";
-		};
-		2C405FE31B09E6EA00A7F311 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2C405FE41B09E6EA00A7F311 /* Info.plist */,
-				2C405FE51B09E6EA00A7F311 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2C405FFC1B09E6EA00A7F311 /* RuntimeTests */ = {
-			isa = PBXGroup;
-			children = (
-				2C405FFF1B09E6EA00A7F311 /* RuntimeTests.m */,
-				2C405FFD1B09E6EA00A7F311 /* Supporting Files */,
-			);
-			path = RuntimeTests;
-			sourceTree = "<group>";
-		};
-		2C405FFD1B09E6EA00A7F311 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2C405FFE1B09E6EA00A7F311 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +132,7 @@
 				Base,
 			);
 			mainGroup = 2C405FD71B09E6EA00A7F311;
-			productRefGroup = 2C405FE11B09E6EA00A7F311 /* Products */;
+			productRefGroup = 2C405FD71B09E6EA00A7F311;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -199,9 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C405FEF1B09E6EA00A7F311 /* Main.storyboard in Resources */,
-				2C405FF41B09E6EA00A7F311 /* LaunchScreen.xib in Resources */,
-				2C405FF11B09E6EA00A7F311 /* Images.xcassets in Resources */,
+				2C2AF5E61B253AF20023CC8F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C405FEC1B09E6EA00A7F311 /* ViewController.m in Sources */,
-				2C405FE91B09E6EA00A7F311 /* AppDelegate.m in Sources */,
-				2C405FE61B09E6EA00A7F311 /* main.m in Sources */,
+				2C2AF5E81B253AF90023CC8F /* main.m in Sources */,
+				2C2AF5E41B25384F0023CC8F /* Runtime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +174,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4060001B09E6EA00A7F311 /* RuntimeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +186,6 @@
 			targetProxy = 2C405FFA1B09E6EA00A7F311 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2C405FED1B09E6EA00A7F311 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C405FEE1B09E6EA00A7F311 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2C405FF21B09E6EA00A7F311 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C405FF31B09E6EA00A7F311 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2C4060011B09E6EA00A7F311 /* Debug */ = {
@@ -348,6 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Runtime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +284,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Runtime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -375,7 +302,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RuntimeTests/Info.plist;
+				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runtime.app/Runtime";
@@ -390,7 +317,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RuntimeTests/Info.plist;
+				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runtime.app/Runtime";
@@ -416,6 +343,7 @@
 				2C4060051B09E6EA00A7F311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C4060061B09E6EA00A7F311 /* Build configuration list for PBXNativeTarget "RuntimeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +352,7 @@
 				2C4060081B09E6EA00A7F311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
