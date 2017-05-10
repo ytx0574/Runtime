@@ -32,7 +32,7 @@ static char key;
     //添加实例方法
     class_addMethod(classTest, @selector(testInstanceMethod), (IMP)testInstanceMethod, "@@:@");
     
-    //动态绑定property,跟class_addProperty有本质的区别,并没有出现在propertyList中
+    //动态绑定property,跟class_addProperty有本质的区别, 并没有出现在propertyList中
     objc_setAssociatedObject(classTest, &key, @"----------", OBJC_ASSOCIATION_COPY_NONATOMIC);
     objc_getAssociatedObject(@"-----", &key);
     
@@ -67,7 +67,7 @@ static char key;
     ((id (*)(id, SEL))objc_msgSend)(class, @selector(alloc));
     //    objc_msgSend(class, @selector(alloc));
     
-    ((id (*)(id, SEL))objc_msgSend)(class, @selector(classMethod));
+//    ((id (*)(id, SEL))objc_msgSend)(class, @selector(classMethod));
 //        objc_msgSend(class, @selector(classMethod));
     
     

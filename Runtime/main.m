@@ -7,10 +7,14 @@
 //
 
 #import "Runtime.h"
+#import "Test.h"
+#import "TestMsgForward.h"
 
 int main(int argc, char * argv[]) {
     
     [[Runtime new] test];
+    [[Test new] test];
+    [[TestMsgForward new] test];
     
     return 0;
 }
