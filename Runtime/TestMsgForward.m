@@ -10,13 +10,20 @@
 
 @interface TT : NSObject
 
-- (void)xx;
-+ (void)xx;
+//- (void)xx;
+//+ (void)xx;
 
 @end
 
 @implementation TT
-
+//- (void)xx;
+//{
+//    
+//}
+//+ (void)xx;
+//{
+//
+//}
 @end
 
 
@@ -40,10 +47,15 @@
 
 + (void)aa
 {
-//    [self abc];
-    [[super new] xx];
-    [super xx];
-    [super methodForSelector:nil];
+//    [[super new] xx];
+//    [super xx];
+//    
+//    [self xx];
+//    [[self new] xx];
+    
+    [self methodSignatureForSelector:nil];
+    
+//    [super methodForSelector:nil];
     
     NSLog(@"调用AA的类方法aa失败, 进而对BB的类方法aa进行签名调用");
 }
@@ -63,7 +75,7 @@
 
 + (id)forwardingTargetForSelector:(SEL)aSelector;
 {
-    return [BB new];
+    return [BB class];  //注意这个地方类方法的调用  返回class对象
 }
 
 
@@ -103,7 +115,7 @@
     if (aSelector == @selector(b)) {
         
         //此处貌似只需要在异常的时候返回一个不为空的签名即可. 照样会执行转发方法.   如果类没有对应的selector, 会返回nil;
-        return [NSMethodSignature signatureWithObjCTypes:[@"v@:@" UTF8String]];
+//        return [NSMethodSignature signatureWithObjCTypes:[@"v@:@" UTF8String]];
         NSMethodSignature *signature = [[BB new] methodSignatureForSelector:@selector(b)];
         NSInvocation *anInvocation = [NSInvocation invocationWithMethodSignature:signature];
         
@@ -173,7 +185,4 @@
     [AA aa];
 }
 
-
-//打印NSObject的metaclass对应的methodlist  看是否有上面的类方法;
-//为什么类方法中可以调用实例方法     [super methodForSelector:nil];
 @end

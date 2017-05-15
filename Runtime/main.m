@@ -9,12 +9,14 @@
 #import "Runtime.h"
 #import "Test.h"
 #import "TestMsgForward.h"
+#import "TestAssociated.h"
 
 int main(int argc, char * argv[]) {
     
     [[Runtime new] test];
     [[Test new] test];
     [[TestMsgForward new] test];
+    [[TestAssociated new] test];
     
     return 0;
 }
